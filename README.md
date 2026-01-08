@@ -8,6 +8,7 @@ Regression → Numerical difficulty score
 
 No deep learning is used; the solution relies on classical machine learning and NLP techniques.
 ```
+##### LINK FOR THE MODEL FILES AND THE SHORT VIDEO ARE MENTIONED AT THE END OF THIS README
 ### Problem Motivation
 ```
 Online platforms like Codeforces, CodeChef, and Kattis assign difficulty labels and scores based on human judgment and user feedback. This process is:
@@ -210,3 +211,8 @@ Classical machine learning models are effective when paired with good feature en
 Combining classification and regression provides richer insights
 
 Proper EDA is essential for understanding model limitations
+
+### LINK TO THE VIDEO AND THE MODEL FILES
+```
+https://iitracin-my.sharepoint.com/:f:/g/personal/aryan_ph_iitr_ac_in/IgATZjVLXGInQob_bDnIv0UsAXwPRX-Ozr96e7NGsD3BG4k?e=PTUZPX
+```
