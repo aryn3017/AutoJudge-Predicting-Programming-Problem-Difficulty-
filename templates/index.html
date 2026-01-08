@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Problem Difficulty Predictor</title>
+    <style>
+        body {
+            font-family: Arial;
+            margin: 40px;
+            max-width: 800px;
+        }
+        textarea {
+            width: 100%;
+            height: 120px;
+            margin-bottom: 15px;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+        }
+        .result {
+            margin-top: 20px;
+            padding: 15px;
+            background: #f2f2f2;
+            border-radius: 6px;
+        }
+    </style>
+</head>
+<body>
+
+<h2>Programming Problem Difficulty Predictor</h2>
+
+<form method="POST">
+    <label><b>Problem Description</b></label>
+    <textarea name="description" required></textarea>
+
+    <label><b>Input Description</b></label>
+    <textarea name="input" required></textarea>
+
+    <label><b>Output Description</b></label>
+    <textarea name="output" required></textarea>
+
+    <button type="submit">Predict Difficulty</button>
+</form>
+
+{% if prediction %}
+<div class="result">
+    <h3>Prediction Result</h3>
+    <p><b>Difficulty Class:</b> {{ prediction }}</p>
+    <p><b>Difficulty Score:</b> {{ score }}</p>
+</div>
+{% endif %}
+
+</body>
+</html>
