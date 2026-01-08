@@ -132,7 +132,7 @@ Symbol counts (<=, %, ^, ==)
 All numeric features were standardized and combined with TF-IDF vectors.
 ```
 #### Models Used
-
+```
 Baseline Model
 
 Always predicts “Medium”
@@ -176,7 +176,7 @@ Evaluation Metrics
 Mean Absolute Error (MAE)
 
 Root Mean Squared Error (RMSE)
-
+```
 ### Result
 ```
 Reasonable prediction accuracy
