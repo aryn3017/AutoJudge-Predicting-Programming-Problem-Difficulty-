@@ -159,7 +159,7 @@ Confusion Matrix
 
 Result
 
-Accuracy ≈ 0.47509113001215064
+Accuracy ≈ 0.53
 
 This significantly outperforms the baseline but is limited by the high-dimensional sparse nature of text features.
 
